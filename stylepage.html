@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS- Font |Text |CSS BOX MODEL</title>
+    <style>
+        h1{
+         color: blue !important;
+        background-color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-style: italic;}
+        p{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: small-caps;
+            text-shadow: 10px 2px 5px red;
+            text-indent: 40px;}
+        #box{
+            width: 220px;
+            height: 200px;
+            background-color: white;
+            border: 5px solid black;
+            margin: 20px;
+            padding: 10px;
+            box-sizing: border-box;}
+    </style>
+</head>
+<body>
+  <!-- css -inline/internal and external-->  
+   <h1 style="font-size: 4em; color: pink ;">Hello world!</h1>
+   <p>
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+        QUISQUAM, VOLUPTATUM. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+   </p>
+   <!-- box model -->
+    <div id="box" >
+        <p>this is a box model example.</p>
+
+    </div>
+</body>
+</html>
