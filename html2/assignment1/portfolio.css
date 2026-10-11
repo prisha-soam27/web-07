@@ -1,0 +1,106 @@
+body{
+    background-color:rgb(231, 208, 208);
+   
+}
+nav{
+      border:1px solid black;
+    border-radius:10px;
+    background-color:rgb(241, 192, 192);
+    margin:10px;
+  height: 50px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+}
+.logo{
+    border-radius:50px;
+    border:1px solid black;
+}
+#main{
+        background-color:rgb(244, 237, 234);
+    border:1px solid black;
+    border-radius:10px;
+    margin:10px;
+padding-top:20px;
+margin:10px;
+
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+align-items: center;
+ }
+#about{
+    border:1px solid black;
+    border-radius:10px;
+    background-color:rgb(244, 237, 234);
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#skills{
+        background-color:rgb(244, 237, 234);
+    border:1px solid black;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#projects{
+        background-color:rgb(244, 237, 234);
+    border:1px solid black;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.portfolio{
+
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.registration{
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.rest{
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.kiet{
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#contacts{
+        background-color:rgb(244, 237, 234);
+    border:1px solid black;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+}

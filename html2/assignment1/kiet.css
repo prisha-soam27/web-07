@@ -1,0 +1,59 @@
+body{
+ background-color: #f0f0f0;
+}
+nav{
+ background-color: #ddc8d4;
+ padding: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+justify-content: space-around;
+align-items: center;
+height: 30px;
+}
+#box{
+    padding: 8px;
+    background-color: purple;
+    color: white;
+    align-items: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#welcome{
+    background-image: linear-gradient(rgba(7, 6, 7, 0.653), rgba(0,0,0,0.3)), url("kiet bg.webp");
+    background-position: center;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about{
+    background-color: #ddc8d4;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+summary{
+    color: purple;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+footer{
+    background-color: #ddc8d4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+}
+#logo{
+    height: 40px;
+    width: 30px;
+}
