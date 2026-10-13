@@ -1,3 +1,7 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
 body{
    background-color: rgb(254, 244, 232);
 }
@@ -60,6 +64,7 @@ a{
     color:rgb(147, 26, 26);
 }
 .line{
+    margin:8px;
     background-color: rgb(147, 26, 26);
     height:1px;
 }
@@ -107,4 +112,164 @@ a{
     align-items:center;
     justify-content: space-between;
 }
+/* Treatments Section */
+
+#treatments {
+    background-color: rgb(254, 244, 232);
+    color: rgb(147, 26, 26);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+/* Main Heading */
+
+#treatments h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* Intro */
+
+#treatments .intro {
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+/* Treatment Cards Container */
+
+.treatments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Individual Cards */
+
+.box {
+    background-color: rgb(147, 26, 26);
+    color: rgb(254, 244, 232);
+    width: 280px;
+    padding: 15px;
+    text-align: left;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Images */
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Card Heading */
+
+.box h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+/* Card Description */
+
+.box p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+.box h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+
+.box:hover {
+    background-color: rgb(254, 244, 232);
+    color: rgb(147, 26, 26);
+    border: 1px solid rgb(147, 26, 26);
+}
+#consultation {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 244, 232);
+}
+
+.consult-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: rgb(147, 26, 26);
+    color: rgb(254, 244, 232);
+}
+
+.consult-box h2,
+.consult-box p {
+    color: rgb(254, 244, 232);
+}
+
+.consult-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.consult-box input,
+.consult-box select,
+.consult-box textarea {
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(254, 244, 232);
+    background-color: rgb(147, 26, 26);
+    color: rgb(254, 244, 232);
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.consult-box input::placeholder,
+.consult-box textarea::placeholder {
+    color: rgb(254, 244, 232);
+    opacity: 0.8;
+}
+
+.consult-box button {
+    padding: 14px;
+    background-color: rgb(254, 244, 232);
+    color: rgb(147, 26, 26);
+    border: 1px solid rgb(254, 244, 232);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.consult-box button:hover {
+    background-color: rgb(147, 26, 26);
+    color: rgb(254, 244, 232);
+}
+#contact{
+    height:150px;
+    background-color:rgb(147, 26, 26);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(254, 244, 232);
+}
+
+
 
